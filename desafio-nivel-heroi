@@ -1,0 +1,30 @@
+// Variáveis
+let XP = 100;
+let banana = XP++;
+let maca = XP * 20;
+let abacaxi = XP;
+let nomeDoHeroi = "Espada das Galáxias";
+let ganhoDoHeroi = (100 * banana) + (50 * maca) + (120 * abacaxi);
+
+// Estrutura de decisão
+
+if (ganhoDoHeroi < 1000) {
+    nivel = "Ferro";
+} else if (ganhoDoHeroi >= 1001 && ganhoDoHeroi <= 2000) {
+    nivel = "Bronze";
+} else if (ganhoDoHeroi >= 2001 && ganhoDoHeroi <= 5000) {
+    nivel = "Prata";
+} else if (ganhoDoHeroi >= 5001 && ganhoDoHeroi <= 7000) {
+    nivel = "Ouro";
+} else if (ganhoDoHeroi >= 7001 && ganhoDoHeroi <= 8000) {
+    nivel = "Platina";
+} else if (ganhoDoHeroi >= 8001 && ganhoDoHeroi <= 9000) {
+    nivel = "Ascendente";
+} else if (ganhoDoHeroi >= 9001 && ganhoDoHeroi <= 10000) {
+    nivel = "Imortal";
+} else {
+    nivel = "Radiante";
+}
+
+// Saída
+console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivel);
